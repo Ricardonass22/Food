@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(155, 146, 113);
+    
+}
+
+.menu_logo{
+    position:fixed ;
+    width: 130px;
+    height: 100vh;
+    background-color: rgba(80, 4, 33, 0.795);
+}
+.menu_le{
+    width: 80px;
+    height: 95px;
+    border-radius: 10px;
+    background-color: rgba(143, 98, 120, 0.623);
+    margin-left: 25px;
+    margin-top: 40px;
+    text-align: center;
+    color:black;
+    font-family: fantasy;
+}
+.logo{
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    
+}
+ul{
+    list-style: none;
+   
+}
+.licardapio{
+    margin-right: 10px
+    
+}
+
+.list{
+  margin-top: 40px;
+  margin-left: 70px;
+  list-style: none;
+  max-height: 60vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 15px;
+ 
+   
+}
+.container {
+    display: flex;
+    max-height:1020px;
+    
+  }
+.conteudopag{
+    
+    padding-left: 180px;
+    width: 1000px;
+    height: 100vh;
+    background-color: rgba(163, 8, 68, 0.795);
+    overflow-y: scroll;
+    
+}
+
+.item-menu {
+    margin-bottom: 10px;
+    width: 70px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.item-img {
+    width: 55px;
+    height: 55px;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0e0f0f;
+    
+}
+.item-preco{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #0e0f0f;
+}
+.cardapio{
+    padding: 10px;
+    margin-bottom:30px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.textpedidos{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
+} 
+.contbotao{
+    margin-top: 30px;
+    margin-left: 120px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: rgba(243, 243, 243, 0.795);
+    
+}
+.partepedido{
+    width: 380px;
+    background-color: rgba(110, 21, 55, 0.795);
+}
+.espaco{
+ margin-left: 70px;
+ margin-top: -20px;
+}
+.partedospedidos{
+    overflow-y: scroll;
+    width: 380px;
+    height: 400px;
+    background-color: rgba(185, 163, 171, 0.795);
+}
+.listpedidos{
+    width: 360px;
+    height: 80px;
+   
+}
+.lipedido{
+    margin-right: 10px
+
+}
+.pedido-menu{
+    margin-bottom: 10px;
+    width: 320px;
+    height: 50px;
+    background: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction:inherit;
+    align-items: center;
+    text-decoration: none;
+}
+
+.pedido-img{
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pedido-title{
+    padding-left: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #0e0f0f;
+}
+.pedido-preco{
+    padding-left: 10px;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #0e0f0f;
+}
+.botao-le :hover{
+    background-color:rgba(110, 21, 55, 0.795);
+    transition: 0.5s;
+    opacity: 0.7;
+}
+.botaonumb{
+    width: 30px;
+    height: 30px;
+}
+.espacovalor{
+    text-align: center;
+}

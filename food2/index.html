@@ -1,0 +1,74 @@
+  <!Doctype html>
+  <html>
+  <head>    
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="module" src="./main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+    <section class="menu_logo">
+      <ul >
+        <li><div class="logo">
+          <img src="/icons/logo.png" width="75px">
+          <p>Sabor <br>do <br>Chefe</p>
+        </div></li>
+        <li class="botao-le"><div class="menu_le" data-categoria = "lanches">
+          <p>Lanches</p>
+          <img src="/hambuger/lanche1.png" width="70px">
+        </div></li>
+        <li class="botao-le"><div class="menu_le" data-categoria = "pizza">
+          <p>Pizzas</p>
+          <img src="/pizza/pizza1.png" width="70px">
+        </div></li>
+        <li class="botao-le"><div class="menu_le">
+          <p>todos</p>
+          <img src="/bebidas/todos.png" width="70px" height="50px">
+        </div></li>
+      </ul>
+    </section>
+
+    <section class="conteudopag">
+      <div class="cardapio"><h1>Cardápio</h1></div>
+      <div class = "espaco"> <img src="/folder/folder1.jpg" width="400px" height="260px">
+        <img src="/folder/folder2.jpg" width="400px" height="260px">
+      </div>
+     
+      <ul class="list">
+        
+        <!--<li class="licardapio">
+          <a class="item-menu" href="#">
+            <div class="item-img">
+              <img src="" alt="">
+            </div>
+            <span class="item-title">Burger</span>
+            <span class="item-preco">R$:17,00</span>
+          </a>
+        </li> -->
+
+      </ul>
+    </section>
+  <section class="partepedido">
+      <div class="textpedidos"><h1>Pedidos</h1></div>
+      <div class="partedospedidos">
+
+        <ul class="listpedidos">
+           
+
+        </ul>
+      </div>
+      <div class="valortotal">
+        <p>-----------------------------------------------------------------------</p>
+        <div class="espacovalor">
+          <h1>Valor do Pedido</h1>
+          <h1>R$:</h1>
+          <h1 id="valor"></h1></div>
+      </div>
+      <div class = "botaopedido"><button class="contbotao">Efetuar pedido</button></div>
+    </section>
+
+  </div>
+  </body>
+  </html>
